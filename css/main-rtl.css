@@ -1,0 +1,142 @@
+.icon {
+  color: #ffffff;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor; }
+
+header {
+  background-color: #c4398c; }
+  header .container .container__con {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff; }
+    header .container .container__con .sochial .sochial--ico {
+      position: relative;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      margin: 10px 5px; }
+      header .container .container__con .sochial .sochial--ico a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+    header .container .container__con .contact {
+      margin: 10px 0px; }
+      header .container .container__con .contact .contact--email {
+        margin-left: 20px; }
+      header .container .container__con .contact a {
+        color: #ffffff;
+        text-decoration: none; }
+
+.nexthed {
+  margin: 50px 0px; }
+  .nexthed .container .container--con {
+    display: flex;
+    justify-content: space-between; }
+    .nexthed .container .container--con .container--con--list {
+      margin-top: 20px; }
+      .nexthed .container .container--con .container--con--list ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0px 15px;
+        font-weight: 600;
+        font-size: 20px; }
+        .nexthed .container .container--con .container--con--list ul li a {
+          color: #000000;
+          text-decoration: none; }
+    .nexthed .container .container--con .container--con--logo {
+      width: 250px;
+      height: 70px; }
+      .nexthed .container .container--con .container--con--logo img {
+        width: 100%;
+        height: 100%; }
+
+.slid .slid-content {
+  padding: 10px; }
+  .slid .slid-content .slid-title {
+    color: #c4398c; }
+  .slid .slid-content .slid-btn {
+    background-color: #c4398c;
+    color: #ffffff;
+    border: 0px; }
+.slid .btn-ptn {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #c4398c;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%; }
+
+.about {
+  margin-top: 50px; }
+  .about .container .container--about-text {
+    text-align: center; }
+    .about .container .container--about-text .container--about--title {
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .about .container .container--about-text .container--about--logo img {
+      width: 100%;
+      height: 100%; }
+  .about .container .container--about-card .card-b {
+    text-align: end; }
+    .about .container .container--about-card .card-b .card-text {
+      text-align: right; }
+    .about .container .container--about-card .card-b .btn-card {
+      margin: 20px 0px;
+      border: 0px;
+      background-color: #c4398c;
+      color: #ffffff; }
+
+.new {
+  margin: 70px 0px; }
+  .new .con__im {
+    background-image: url(../images/backgrounds/seafood-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .new .container .container-new-title {
+    text-align: center; }
+    .new .container .container-new-title span img {
+      width: 100%; }
+  .new .container .container-new-card .line {
+    border: 2px solid #c4398c; }
+  .new .container .container-new-card .card--b-s {
+    display: flex;
+    justify-content: space-between; }
+    .new .container .container-new-card .card--b-s .card-btn {
+      border: 0px;
+      background-color: #c4398c;
+      color: #ffffff; }
+    .new .container .container-new-card .card--b-s .card-salary {
+      color: #c4398c; }
+  .new .container .nwe-btn {
+    text-align: center; }
+    .new .container .nwe-btn button {
+      margin: 70px 0px;
+      background-color: #c4398c;
+      color: #ffffff;
+      border: 0px;
+      font-size: 22px; }
+
+footer {
+  margin-top: 100px;
+  background-color: #c4398c; }
+  footer p {
+    margin: 0px;
+    padding: 10px 0px;
+    text-align: center;
+    color: #ffffff; }
+
+@media (max-width: 575.98px) {
+  .sochial {
+    display: none; }
+
+  .slid-content {
+    display: block !important; } }
+
+/*# sourceMappingURL=main-rtl.css.map */
